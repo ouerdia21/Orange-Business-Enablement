@@ -11,12 +11,9 @@ Before running evaluations, download the .csv file below that corresponds to you
 
 ### 1.1 Use case test files
 
-Here are some prepared test evaluation files for some of the use cases. NOTE: the last 3 queries and answers are detractor responses designed to show low answer quality:
+Here are a prepared test evaluation file for your AskHR use cases. NOTE: the last 3 queries and answers are detractor responses designed to show low answer quality:
 
-- [AskHR](../../ask-hr/assets/askhr-eval.csv)
-- [Competitive Analysis](../../competitive-analysis/assets/comp-analysis-eval.csv)
-- [HR Talent](../../hr-talent/data/hr-talent-eval.csv)
-- [Product Scout](../../product-scout/knowledge/product-scout-eval.csv)
+- [AskHR](ask-hr/assets/askhr-eval.csv)
 
 
 ### 1.2 Creating Test Files (Optional)
@@ -39,29 +36,29 @@ You can use [watsonx.ai](https://www.ibm.com/products/watsonx-ai) prompt lab or 
 
 1. Select the **Test** option from the hamburger menu on top right.
 
-![test](../../images/test.png)
+![test](images/test.png)
 
 2. Select the **Upload tests** button.
 
-![upload test](../../images/upload-tests.png)
+![upload test](images/upload-tests.png)
 
 3. Now, choose the link to upload your newly created test csv file, then click **Upload**.
 
-![upload test](../../images/upload-test.png)
+![upload test](images/upload-test.png)
 
 4. Select which test Prompts you want to evaluate and click **Run**
 
-![test run](../../images/test-run.png)
+![test run](images/test-run.png)
 
 5. While it is running the evaluation, you will see an **In progress** status
 
-![eval status](../../images/eval-status.png)
+![eval status](images/eval-status.png)
 
 6. Once completed, you will see a green **Completed** status. You can see the test results by clicking on the completed test run.
 
-![select test run](../../images/get-eval-result.png)
+![select test run](images/get-eval-result.png)
 
-![full test eval](../../images/eval-result.png)
+![full test eval](images/eval-result.png)
 
 7. You can download your results as well. 
 

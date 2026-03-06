@@ -19,39 +19,39 @@ Upload this document containing [Medicare questions with unrelated answers](./me
 
 1. In the agent build view, go to the **Knowledge** section and click on the **Replace source** button.
    
-   ![upload-knowledgebase-1](../../images/gov-upload-knowledgebase-1.png)
+   ![upload-knowledgebase-1](images/gov-upload-knowledgebase-1.png)
 
 1. Then select **New knowledge** from this screen:
 
-   ![upload-knowledgebase-2](../../images/gov-upload-knowledgebase-2.png)
+   ![upload-knowledgebase-2](images/gov-upload-knowledgebase-2.png)
 
 1. And follow up with **Upload files** and click on **Next**:
    
-   ![upload-knowledgebase-3](../../images/gov-upload-knowledgebase-3.png)
+   ![upload-knowledgebase-3](images/gov-upload-knowledgebase-3.png)
 
 1. Then, drag and drop the file you uploaded from the above link to the dedicated area on this screen and click **Next**.
    
-   ![upload-knowledgebase-4](../../images/gov-upload-knowledgebase-4.png)
+   ![upload-knowledgebase-4](images/gov-upload-knowledgebase-4.png)
 
 1. Fill out the **Name** and **Description** as you see in the image below and click on **Save**.
    
-   ![upload-knowledgebase-4](../../images/gov-upload-knowledgebase-5.png)
+   ![upload-knowledgebase-5](images/gov-upload-knowledgebase-5.png)
 
 ### Deploy and set up monitoring
 
 1. Once you have uploaded the knowledge document, deploy the agent using the button in the top right corner of the screen. Then click on **Deploy** again in the next screen.
 
-   ![Deploy agent](../../images/gov-deploy-agent.png)
+   ![Deploy agent](images/gov-deploy-agent.png)
 
 1. You will be prompted to **Activate agent monitoring**. Click the blue button. This may take a while, so be patient. Note: You can also activate agent monitoring from the Analyze tab at any point after deployment.
 
-   ![agent monitoring](../../images/agent-monitoring.png)
+   ![agent monitoring](images/agent-monitoring.png)
 
 ### Test your agent in the Chat window
 
 From the hamburger menu at the top left, select **Agent chat**, choose your desired agent, and make some queries. You can use questions in the "Prompt" column in your test.csv file as sample questions. 
 
-   ![chat-view](../../images/gov-test-in-chat.png)
+   ![chat-view](images/gov-test-in-chat.png)
 
 ### Check your agent's monitoring results
 
@@ -59,35 +59,35 @@ From the hamburger menu at the top left, select **Agent chat**, choose your desi
 
 1. Now, select **Analyze** from the top-left hamburger menu. 
 
-   ![analyze](../../images/analyze.png)
+   ![analyze](images/analyze.png)
 
 1. You will be taken to the **Agent Analytics** page. You can see your agent listed and the **Monitor** toggle enabled.  Click the icon to the right of the toggle to access the **IBM watsonx.governance** dashboard.
 
-   ![analytics](../../images/analytics.png)
+   ![analytics](images/analytics.png)
 
 1. You will see an evaluation dashboard.
 
-   ![dashboard](../../images/monitor-dashboard.png)
+   ![dashboard](images/monitor-dashboard.png)
 
 1. Select the **Analysis** tab, and go to the bottom where the conversations will be listed. Click the 3 dot menu next to the conversation you just had and click the **View Details** menu item.  
 
-   ![analysis](../../images/conversation-analysis.png)
+   ![analysis](images/conversation-analysis.png)
 
 1. This will show you details for all of the messages in the conversation.  You can expand the blue **+ # metrics** link to see all of the metrics for each message.
 
-   ![message](../../images/message-details-incorrect-data.png)
+   ![message](images/message-details-incorrect-data.png)
 
 1. Exit out of the message details and select **Messages** from the top right drop-down menu on the Analysis page.
 
-   ![anaysis](../../images/message-analysis.png)
+   ![anaysis](images/message-analysis.png)
 
 1. Go down to the bottom of the page to see a table of all of the monitored messages. Select the customize icon at the top right of the message table to customize the metrics to display. Choose **Answer relevance** and **Context relevance**, and **faithfulness**, then **Apply**. You will now see the added columns to the table.
 
-   ![metrics](../../images/message-metrics-incorrect.png)
+   ![metrics](images/message-metrics-incorrect.png)
 
 1. Here are some sample metrics for the questions we asked so far:
 
-   ![metrics](../../images/message-metrics-incorrect-2.png)
+   ![metrics](images/message-metrics-incorrect-2.png)
 
 1. These metrics reveal a critical data quality issue in the Medicare RAG system. Let's break down the metrics from the first row of data:
 
@@ -102,7 +102,7 @@ From the hamburger menu at the top left, select **Agent chat**, choose your desi
 
 You can now repeat the steps in Scenario 1, but this time remove the document with unrelated answers and upload this document which contains [Medicare questions with correct answers](./medicare_correct_answers.pdf). Follow the above steps, ask the same questions, and see how the metrics change. Here is an example of how the metrics can change:
 
-![message](../../images/message-metrics-correct.png)
+![message](images/message-metrics-correct.png)
 
    **Answer Relevance: 0.67** - Since Answer relevance measures how relevant the generated response is to the given input, it improves significantly in this scenario. The system now generates responses that are directly related to Medicare questions, though there is still room for improvement to reach a perfect score.
 
