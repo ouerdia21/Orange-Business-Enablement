@@ -48,6 +48,30 @@ These metrics enable data-driven decisions about agent quality, safety, and cost
 
 The agent governance lifecycle in watsonx Orchestrate follows a continuous improvement model:
 
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+
+    mermaid.initialize({ startOnLoad: false });
+
+    const renderMermaidBlocks = () => {
+        document.querySelectorAll("pre > code.language-mermaid").forEach((codeBlock) => {
+            const pre = codeBlock.parentElement;
+            const mermaidContainer = document.createElement("div");
+            mermaidContainer.className = "mermaid";
+            mermaidContainer.textContent = codeBlock.textContent;
+            pre.replaceWith(mermaidContainer);
+        });
+
+        mermaid.run({ querySelector: ".mermaid" });
+    };
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", renderMermaidBlocks);
+    } else {
+        renderMermaidBlocks();
+    }
+</script>
+
 ```mermaid
 graph TD
     A[📝 Pre-Deployment Evaluation] --> B{Quality<br/>Standards<br/>Met?}
