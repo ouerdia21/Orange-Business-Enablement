@@ -1,16 +1,16 @@
 <div align="center">
 
-<h1>TechXChange-Paris-Governance</h1>
+<h1>Orange Business Enablement : watsonx orchesrate & watsonx governance</h1>
 
 <img src="assets/agentic-bootcamp-hexagen.png" alt="TechXchange Paris Bootcamp" />
 
-<h2>Business Partner Enabelment AI Governance - Bois-Colombes - ? April 2026</h2>
+<h2>Business Partner Enablement AI Governance - Bois-Colombes - ? April 2026</h2>
 
 </div>
 
-Welcome to the TechXchange AI Governance event, organized by TechXchange Paris. We are delighted to have you join this session dedicated to enterprise AI governance.
+Welcome to the AI Governance Enablement for Orange Business Partner. This hands-on session is designed to equip you with IBM's enterprise AI governance solutions and best practices.
 
-To help you explore IBM technology and discuss AI governance best practices, we have planned the following interactive Labs:
+To support your client engagements and technical expertise, we have prepared the following interactive Labs:
 
 
 1. Agent Ops Lab
