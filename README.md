@@ -14,6 +14,8 @@ To support your client engagements and technical expertise, we have prepared the
 
 
 1. Agent Ops Lab
+2. Guardrails AI manager 
+
 
 
 ## First - Participant prerequisite
