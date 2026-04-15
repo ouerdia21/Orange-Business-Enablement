@@ -183,4 +183,5 @@ Test the Agent from the AI Chat window. Click on the hamburger menu in the top l
 Make sure **HR Agent** is selected. You can now test your agent:
 
 <img width="1000" alt="image" src="./assets/hands-on-lab-assets/hr_step16.png">
+<img width="1000" alt="image" src="./images/Welcomeorchestrate.png">
 
