@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Orange Business Enablement : watsonx orchesrate & watsonx governance</h1>
+<h1>Orange Business Enablement : watsonx orchestrate & watsonx governance</h1>
 
 <img src="assets/agentic-bootcamp.png" alt="TechXchange Paris Bootcamp" />
 
